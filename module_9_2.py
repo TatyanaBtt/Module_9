@@ -1,5 +1,3 @@
-from gc import is_finalized
-
 first_strings = ['Elon', 'Musk', 'Programmer', 'Monitors', 'Variable']
 second_strings = ['Task', 'Git', 'Comprehension', 'Java', 'Computer', 'Assembler']
 combined_strings = first_strings + second_strings
