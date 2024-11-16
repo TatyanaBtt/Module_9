@@ -1,6 +1,6 @@
 def is_prime(func):
-    def wrapper(*args):
-        result = func(*args)
+    def wrapper(*args, **kwargs):
+        result = func(*args, **kwargs)
         prime = True
         for j in range(2, result):
             if result % j == 0:
